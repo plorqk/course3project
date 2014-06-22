@@ -1,4 +1,4 @@
-#unzip("getdata_projectfiles_UCI HAR Dataset.zip")
+unzip("getdata_projectfiles_UCI HAR Dataset.zip")
 
 #this adds an extra column, which is easy to remove
 activityLabels <- read.csv("./UCI HAR Dataset/activity_labels.txt",header=FALSE,sep="")        
